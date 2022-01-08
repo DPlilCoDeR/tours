@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Tour = ({tour}) => {
+const Tour = ({tour, deleteTour}) => {
     const [tourState, setTourState] = useState(tour);
     const [readMore, setReadMore] = useState(false)
 
